@@ -23,6 +23,7 @@ import { MiGaleriaScreenComponent } from './screens/mi-galeria-screen/mi-galeria
 import { FotoDetalleScreenComponent } from './screens/foto-detalle-screen/foto-detalle-screen.component';
 import { ConfigurarScreenComponent } from './screens/configurar-screen/configurar-screen.component';
 import { SubirImgScreensComponent } from './screens/subir-img-screens/subir-img-screens.component';
+import { EquipoScreenComponent } from './screens/equipo-screen/equipo-screen.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -43,7 +44,8 @@ import { SubirImgScreensComponent } from './screens/subir-img-screens/subir-img-
     MiGaleriaScreenComponent,
     FotoDetalleScreenComponent,
     ConfigurarScreenComponent,
-    SubirImgScreensComponent
+    SubirImgScreensComponent,
+    EquipoScreenComponent
   ],
   imports: [
     BrowserModule,

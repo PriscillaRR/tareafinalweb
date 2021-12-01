@@ -4,6 +4,7 @@ import { AcercaScreenComponent } from './screens/acerca-screen/acerca-screen.com
 import { ArtistaDetalleComponent } from './screens/artista-detalle/artista-detalle.component';
 import { ArtistasScreenComponent } from './screens/artistas-screen/artistas-screen.component';
 import { ConfigurarScreenComponent } from './screens/configurar-screen/configurar-screen.component';
+import { EquipoScreenComponent } from './screens/equipo-screen/equipo-screen.component';
 import { FotoDetalleScreenComponent } from './screens/foto-detalle-screen/foto-detalle-screen.component';
 import { LoginScreenComponent } from './screens/login-screen/login-screen.component';
 import { MiGaleriaScreenComponent } from './screens/mi-galeria-screen/mi-galeria-screen.component';
@@ -21,6 +22,7 @@ const routes: Routes = [
   {path:'artistas', component:ArtistasScreenComponent},
   {path:'artistas/artista_detalle/:_id', component:ArtistaDetalleComponent},
   {path:'acerca', component:AcercaScreenComponent},
+  {path: 'equipo', component:EquipoScreenComponent},
   {path:'subirnoticia', component:SubirNoticiaScreenComponent},
   {path:'migaleria', component:MiGaleriaScreenComponent},
   {path:'fotodetalle/:_idFoto', component:FotoDetalleScreenComponent},
