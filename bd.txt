@@ -62,12 +62,16 @@ values ('pepito', 'pepito@gmail.com', '123', 'mibiografia comienza cuando era ni
 
 insert into imagen (dir) 
 values('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR73o1cA-NLDZkDj1HIE1F6GuvufPlTC4Jz8SijG5XmFWzUTifuz-8G1yhKVPASQEXDL4A&usqp=CAU');
+
 insert into imagen (dir) 
 values('https://www.muyinteresante.com.mx/wp-content/uploads/2018/05/httpstved-prod.adobecqms.netcontentdameditorialTelevisamexicomuyinteresantemxciencia151021nicolas-cage.imgo_.jpg');
 
+insert into imagen (dir) 
+values('https://dam.smashmexico.com.mx/wp-content/uploads/2019/12/crisis-on-infinite-earths-superman-nicolas-cage-cover.jpg')
 
 insert into noticia (img, titulo, contenido, fecha, fk_artista)
 values(1, 'titulo de noticia', 'contenido lorem lroem lorem', '01-01-2000', 1);
 
 insert into img_galeria_artista (titulo, fecha, fk_artista, img, descripcion)
 values ('titulo img', '10-10-1999', 1, 2, 'descripcion de la imagen, esta hecha con x program y inspirado en x cosa etcetecte');
+values ('SpiderCage', '30-11-2021', 1, 3, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris condimentum pharetra magna id mollis. Curabitur iaculis neque non commodo facilisis. Ut vehicula efficitur augue, ac finibus magna ornare sit amet. Pellentesque ultrices euismod est, sodales ornare purus imperdiet in.');
